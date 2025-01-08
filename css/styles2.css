@@ -1496,6 +1496,9 @@ input[type='checkbox'] {
 /************************/
 /*     12. Projects     */
 /************************/
+.filter .container {
+	width: 61vw !important;
+}
 .filter {
 	padding-top: 2.5rem;
 	/* padding-bottom: 7rem; */
@@ -1602,7 +1605,7 @@ input[type='checkbox'] {
 /**********************************/
 .lightbox-basic {
 	position: relative;
-	max-width: 62.5rem;
+	max-width: 80vw;
 	margin: 2.5rem auto;
 	padding: 1.5625rem;
 	border-radius: 0.25rem;
@@ -1971,7 +1974,7 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #14bf98 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #14bf98 url("../img/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }

@@ -69,4 +69,4 @@ function openTab(event, tabName) {
 }
 
 // Mặc định mở tab đầu tiên
-document.getElementById("breakfast").style.display = "block";
+document.getElementById("menu1").style.display = "block";

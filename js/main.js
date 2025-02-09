@@ -47,3 +47,26 @@ function main() {
 
 }
 main();
+
+function openTab(event, tabName) {
+  var i, tabcontent, tablinks;
+  
+  // Ẩn tất cả nội dung tab
+  tabcontent = document.getElementsByClassName("tab-content");
+  for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+  }
+
+  // Xóa trạng thái active của tất cả button
+  tablinks = document.getElementsByClassName("tab-btn");
+  for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Hiển thị nội dung tab được chọn
+  document.getElementById(tabName).style.display = "block";
+  event.currentTarget.className += " active";
+}
+
+// Mặc định mở tab đầu tiên
+document.getElementById("breakfast").style.display = "block";

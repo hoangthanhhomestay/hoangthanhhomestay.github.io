@@ -135,7 +135,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #FFF;
 }
 .section-title {
-	margin-bottom: 70px;
+	margin-bottom: 35px;
 }
 .section-title .overlay {
 	padding: 80px 0;
@@ -253,9 +253,9 @@ header .intro-text {
 	padding: 80px 0;
 }
 #about .about-img {
-	background: #444 url(../img/gallery-bg.jpg) center center no-repeat;
-	background-size: cover;
-	height: 570px;
+	/* background: #444 url(../img/gallery-bg.jpg) center center no-repeat; */
+	/* background-size: cover; */
+	/* height: 570px; */
 }
 #about p {
 	line-height: 24px;
@@ -277,10 +277,10 @@ header .intro-text {
 	margin: 0 auto;
 }
 #restaurant-menu .menu-section {
-	margin: 0 20px 80px;
+	margin: 0 20px 40px;
 }
 #restaurant-menu .menu-section-title {
-	font-size: 32px;
+	font-size: 26px;
 	display: block;
 	font-weight: 400;
 	color: #444;
@@ -288,7 +288,7 @@ header .intro-text {
 	text-align: center;
 }
 #restaurant-menu .menu-item {
-	margin: 45px 0;
+	margin: 20px 0;
 	font-size: 18px;
 }
 #restaurant-menu .menu-item-name {
@@ -316,7 +316,7 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-	padding: 120px 0;
+	padding: 30px 0;
 }
 #team h2::after {
 	bottom: 0;
@@ -552,4 +552,46 @@ color: #999;
 	left: 0;
 	color: #fff;
 	font: 700 1.125rem/1.625rem "Nunito";
+}
+
+.menu-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #444;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.tab-btn:hover,
+.tab-btn.active {
+    border-bottom: 2px solid #a33;
+    color: #a33;
+}
+
+.tab-content {
+    display: none;
+    font-size: 18px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.room-description {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.col-xs-12 {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }

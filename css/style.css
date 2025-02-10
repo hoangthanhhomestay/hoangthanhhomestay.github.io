@@ -424,21 +424,21 @@ color: #999;
 	background: #262626;
 	padding: 40px 0 20px 0;
 }
-#footer .social {
+#contact .social {
 	margin-top: -5px;
-	text-align: right;
+	text-align: center;
 }
-#footer .social ul li {
+#contact .social ul li {
 	display: inline-block;
 	margin: 0 15px;
 }
-#footer .social i.fa {
-	font-size: 24px;
+#contact .social i.fa {
+	font-size: 40px;
 	padding: 4px;
 	color: #888;
 	transition: all 0.3s;
 }
-#footer .social i.fa:hover {
+#contact .social i.fa:hover {
 	color: #eee;
 }
 #footer p {
@@ -457,6 +457,7 @@ color: #999;
 .filter {
 	padding-top: 2.5rem;
 	/* padding-bottom: 7rem; */
+	background-color: #fbfbfb;
 }
 
 .filter .section-title {
